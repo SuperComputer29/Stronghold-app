@@ -16,35 +16,35 @@ yellow = (255, 255, 0)
 border = pygame.Rect(width // 2 - 5, 0, 10, height)
 bl, bw = (360, 40)              # bl stands for Button Length and bw stands for Button width
 
-info1_image = pygame.image.load(os.path.join('Triangulation assets', 'Main menu', 'Info_1.png'))
+info1_image = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'Main menu', 'Info_1.png'))
 info1 = pygame.transform.scale(info1_image, (bl, bw))
 
-info2_image = pygame.image.load(os.path.join('Triangulation assets', 'Main menu', 'Info_2.png'))
+info2_image = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'Main menu', 'Info_2.png'))
 info2 = pygame.transform.scale(info2_image, (bl, bw))
 
-S1_image = pygame.image.load(os.path.join('Triangulation assets', 'Main menu', 'StrongholdButton_1.png'))
+S1_image = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'Main menu', 'StrongholdButton_1.png'))
 S1 = pygame.transform.scale(S1_image, (bl, bw))
 
-S2_image = pygame.image.load(os.path.join('Triangulation assets', 'Main menu', 'StrongholdButton_2.png'))
+S2_image = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'Main menu', 'StrongholdButton_2.png'))
 S2 = pygame.transform.scale(S2_image, (bl, bw))
 
-logo_image = pygame.image.load(os.path.join('Triangulation assets', 'Main menu', 'logo.png'))
+logo_image = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'Main menu', 'logo.png'))
 logo = pygame.transform.scale(logo_image, (720, 120))
 
-bg = pygame.image.load(os.path.join('Triangulation assets', 'Main menu', 'Background.png'))
+bg = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'Main menu', 'background.png'))
 
-bare_menu = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'bare menu.png'))
+bare_menu = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'bare menu.png'))
 
-back = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'back.png'))
-calc = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'calc_button.png'))
+back = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'back.png'))
+calc = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'calc_button.png'))
 
-x1 = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'First x coord.png'))
-y1 = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'First y coord.png'))
-x2 = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'Second x coord.png'))
-y2 = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'Second y coord.png'))
+x1 = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'First x coord.png'))
+y1 = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'First y coord.png'))
+x2 = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'Second x coord.png'))
+y2 = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'Second y coord.png'))
 
-t1 = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'First angle.png'))
-t2 = pygame.image.load(os.path.join('Triangulation assets', 'The action menu', 'Second angle.png'))
+t1 = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'First angle.png'))
+t2 = pygame.image.load(os.path.join('Stronghold triangulation app', 'Triangulation assets', 'The action menu', 'Second angle.png'))
 fps = 60
 
 
